@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>შოპინგჰელპერი — ყველაფერი ერთ სივრცეში</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="top-message">შეარჩიე სასურველი ნივთები და ისარგებლე განსაკუთრებული შეთავაზებებით</div>
+
+  <header class="site-header">
+    <a class="logo" href="#" aria-label="შოპინგჰელპერის მთავარი გვერდი">შოპინგჰელპერი<span>.</span></a>
+
+    <form class="search" action="#" method="get">
+      <label class="visually-hidden" for="search">პროდუქტის ძიება</label>
+      <input id="search" type="search" name="q" placeholder="რას ეძებ დღეს?">
+      <button type="submit" aria-label="ძიება">⌕</button>
+    </form>
+
+    <a class="header-link" href="#offers" aria-label="რჩეულები"><span class="header-icon">♡</span><span>რჩეულები</span></a>
+    <a class="header-link basket" href="#products" aria-label="კალათა"><span class="header-icon">▱</span><span>კალათა</span></a>
+  </header>
+
+  <nav class="categories" aria-label="პროდუქტის კატეგორიები">
+    <a href="#products">ყველა</a>
+    <a href="#products">ტანსაცმელი</a>
+    <a href="#products">სახლი</a>
+    <a href="#products">ელექტრონიკა</a>
+    <a href="#products">სილამაზე</a>
+    <a href="#products">აქსესუარები</a>
+    <a href="#offers">ფასდაკლებები</a>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">შენი ახალი აღმოჩენები</p>
+        <h1>იპოვნე მეტი,<br><span>დაზოგე მეტი!</span></h1>
+        <p class="hero-description">შეარჩიე ნივთები, რომლებიც შენს ყოველდღიურობას უფრო სასიამოვნოს გახდის.</p>
+        <a class="primary-button" href="#products">შოპინგის დაწყება <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="hero-sun"></div>
+        <div class="hero-circle circle-one">✦</div>
+        <div class="hero-circle circle-two">♡</div>
+        <div class="hero-box">🛍️</div>
+        <div class="hero-tag">დღის<br>არჩევანი</div>
+      </div>
+    </section>
+
+    <section class="benefits" aria-label="ჩვენი უპირატესობები">
+      <div><span>🚚</span><p><strong>მარტივი შეკვეთა</strong><br>შეარჩიე სახლიდან</p></div>
+      <div><span>✨</span><p><strong>ახალი აღმოჩენები</strong><br>ყოველდღე ახალი ნივთები</p></div>
+      <div><span>♡</span><p><strong>შენი სტილი</strong><br>შეარჩიე შენთვის</p></div>
+    </section>
+
+    <section class="products-section" id="products">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">შენთვის შევარჩიეთ</p>
+          <h2>პოპულარული პროდუქტები</h2>
+        </div>
+        <a class="text-link" href="#products">ყველას ნახვა <span aria-hidden="true">→</span></a>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <a class="product-picture picture-peach" href="#products" aria-label="ყურსასმენის ნახვა"><img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="უკაბელო ყურსასმენი" loading="lazy"><span class="sale-label">-25%</span></a>
+          <div class="product-info">
+            <p class="product-category">ელექტრონიკა</p>
+            <h3>უკაბელო ყურსასმენი</h3>
+            <p class="rating">★★★★★ <span>(128)</span></p>
+            <p class="price">39.90 ₾ <del>52.90 ₾</del></p>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <a class="product-picture picture-blue" href="#products" aria-label="ჩანთის ნახვა"><img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="ყოველდღიური ჩანთა" loading="lazy"><span class="sale-label">-18%</span></a>
+          <div class="product-info">
+            <p class="product-category">აქსესუარები</p>
+            <h3>ყოველდღიური ჩანთა</h3>
+            <p class="rating">★★★★★ <span>(86)</span></p>
+            <p class="price">48.00 ₾ <del>58.50 ₾</del></p>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <a class="product-picture picture-green" href="#products" aria-label="ნათურის ნახვა"><img src="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="დეკორატიული სანათი" loading="lazy"><span class="sale-label">-30%</span></a>
+          <div class="product-info">
+            <p class="product-category">სახლი</p>
+            <h3>დეკორატიული სანათი</h3>
+            <p class="rating">★★★★★ <span>(54)</span></p>
+            <p class="price">27.50 ₾ <del>39.00 ₾</del></p>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <a class="product-picture picture-lilac" href="#products" aria-label="კანის მოვლის ნაკრების ნახვა"><img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="კანის მოვლის ნაკრები" loading="lazy"><span class="sale-label">-15%</span></a>
+          <div class="product-info">
+            <p class="product-category">სილამაზე</p>
+            <h3>კანის მოვლის ნაკრები</h3>
+            <p class="rating">★★★★★ <span>(97)</span></p>
+            <p class="price">34.90 ₾ <del>41.00 ₾</del></p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="offer-banner" id="offers">
+      <div>
+        <p class="eyebrow">შერჩეული შეთავაზება</p>
+        <h2>პატარა სიახლეები,<br>დიდი სიხარული.</h2>
+        <a class="offer-link" href="#products">აღმოაჩინე პროდუქტები <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="offer-illustration" aria-hidden="true">🎁</div>
+      <p class="offer-sticker">შეარჩიე<br>შენი ფავორიტი!</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="logo" href="#">შოპინგჰელპერი<span>.</span></a>
+    <p>შენი ყოველდღიური აღმოჩენების ადგილი.</p>
+    <small>© 2026 შოპინგჰელპერი. სასწავლო პროექტი.</small>
+  </footer>
+</body>
+</html>
